@@ -6,8 +6,8 @@ This cookbook installs the Microsoft .NET Framework 4.0
 
 ## Requirements
 ### Platforms
--Windows 7
--Windows Server 2008 R2 (not supported on Server Core Role)
+- Windows 7
+- Windows Server 2008 R2 (not supported on Server Core Role)
 
 ### Chef
 
@@ -16,14 +16,9 @@ This cookbook installs the Microsoft .NET Framework 4.0
 ### Cookbooks
 - windows
 
-
-## Attributes
-
-
 ## Usage
 
 Include the default recipe on a node's runlist to ensure that .NET Framework 4.0 is installed on the system
-
 
 # License & Authors
 **Author:** Tim Smith ([tsmith@chef.io](mailto:tsmith@chef.io))
