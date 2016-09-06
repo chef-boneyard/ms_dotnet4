@@ -14,7 +14,7 @@ This cookbook installs the Microsoft .NET Framework 4.0
 - Chef 12.1+
 
 ### Cookbooks
-- windows
+- none
 
 ## Usage
 
