@@ -1,11 +1,17 @@
 # ms_dotnet4 Cookbook
-[![Build Status](https://travis-ci.org/chef-cookbooks/ms_dotnet4.svg?branch=master)](https://travis-ci.org/chef-cookbooks/ms_dotnet4)
-[![Cookbook Version](https://img.shields.io/cookbook/v/ms_dotnet4.svg)](https://supermarket.chef.io/cookbooks/ms_dotnet4)
+
+[![Build Status](https://travis-ci.org/chef-cookbooks/ms_dotnet4.svg?branch=master)](https://travis-ci.org/chef-cookbooks/ms_dotnet4) [![Cookbook Version](https://img.shields.io/cookbook/v/ms_dotnet4.svg)](https://supermarket.chef.io/cookbooks/ms_dotnet4)
 
 This cookbook installs the Microsoft .NET Framework 4.0
 
+# DEPRECATED
+
+This cookbook has been deprecated in favor of the ms_dotnet cookbook by criteo at <https://supermarket.chef.io/cookbooks/ms_dotnet>. The ms_dot cookbook provides a single cookbook to install all version of the .NET Framework and also includes a provider that aids in writing wrapper cookbooks.
+
 ## Requirements
+
 ### Platforms
+
 - Windows 7
 - Windows Server 2008 R2 (not supported on Server Core Role)
 
@@ -14,16 +20,18 @@ This cookbook installs the Microsoft .NET Framework 4.0
 - Chef 12.1+
 
 ### Cookbooks
+
 - none
 
 ## Usage
 
 Include the default recipe on a node's runlist to ensure that .NET Framework 4.0 is installed on the system
 
-# License & Authors
+## License & Authors
+
 **Author:** Tim Smith ([tsmith@chef.io](mailto:tsmith@chef.io))
 
-**Copyright:** 2011-2015, Webtrends, Inc.
+**Copyright:** 2011-2016, Webtrends, Inc.
 
 ```
 Licensed under the Apache License, Version 2.0 (the "License");
