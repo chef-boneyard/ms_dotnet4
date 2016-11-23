@@ -1,11 +1,11 @@
 #
-# Cookbook Name:: ms_dotnet4
+# Cookbook:: ms_dotnet4
 # Recipe:: regiis
 # Author: Kendrick Martin(<kmartinix@gmail.com>)
 #
 # This recipe registers .NET 4 with IIS to install ISAPI filters
 #
-# Copyright 2012, Webtrends, Inc.
+# Copyright:: 2012-2016, Webtrends, Inc.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
