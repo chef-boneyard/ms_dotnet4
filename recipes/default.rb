@@ -28,8 +28,8 @@ if platform?('windows')
       not_if { File.exist?('C:/Windows/Microsoft.NET/Framework/v4.0.30319') }
     end
   else
-    Chef::Log.warn('The .NET 4.0 Chef recipe currently only supports Windows Vista, 7, 2008, and 2008 R2.')
+    Chef::Log.warn('The Microsoft .NET Framework 3.5 Chef recipe currently only supports Windows 7 and 2008 R2 and later.')
   end
 else
-  Chef::Log.warn('Microsoft .NET Framework 4.0 can only be installed on the Windows platform.')
+  Chef::Log.info('Microsoft .NET Framework 4.0 can only be installed on the Windows platform.')
 end
