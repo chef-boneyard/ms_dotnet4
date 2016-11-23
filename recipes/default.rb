@@ -18,7 +18,7 @@
 # limitations under the License.
 
 if platform?('windows')
-  if node['platform_version'].to_i >= 6
+  if node['platform_version'].to_f >= 6.1
     windows_package 'Microsoft .NET Framework 4 Client Profile' do
       source node['ms_dotnet4']['http_url']
       installer_type :custom
